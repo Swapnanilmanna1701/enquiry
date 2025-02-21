@@ -58,14 +58,14 @@ export default function SupportScribe() {
 
     return (
         <>
-            <Card className="flex-1 bg-gray-800 text-gray-100 shadow-2xl flex flex-col">
+            <Card className="flex-1 bg-gray-800  text-gray-100 shadow-2xl flex flex-col">
                 <CardHeader className="bg-gradient-to-r from-blue-600 to-purple-600 p-6">
                     <CardTitle className="text-3xl font-bold text-white flex items-center">
                         <MessageSquare className="mr-2 h-8 w-8" />
-                        SupportScribe
+                        Support From Cazz AI
                     </CardTitle>
                     <CardDescription className="text-gray-200 text-lg">
-                        AI-Powered Customer Communication Hub
+                        AI-Powered Customer Support System
                     </CardDescription>
                 </CardHeader>
                 <form onSubmit={handleSubmit} className="flex flex-col flex-grow">
